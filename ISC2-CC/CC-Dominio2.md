@@ -226,38 +226,93 @@ Este escenario ilustra por qué encontrar el "último backup confiable" es cruci
 * **La Decisión del DR:** El equipo *no puede* restaurar desde el último backup (naranja). Debe retroceder en el tiempo hasta el **Backup 13**: el **Último Backup Confiable Conocido**.
 * **La Pérdida de Datos (El "Gap"):** El negocio perderá inevitablemente todos los datos entre el Backup 13 y el momento de la detección. El BIA define cuánta pérdida de datos es aceptable (esto es el **RPO - Recovery Point Objective** o "Punto Objetivo de Recuperación").
 
-* ## 📚 Glosario : Términos y Definiciones
+---
 
-* **Eventos adversos:** eventos con una consecuencia negativa, como bloqueos del sistema, inundaciones de paquetes de red, uso no autorizado de privilegios del sistema, desfiguración de una página web o ejecución de código malicioso que destruye datos.
+# 📚 Términos y Definiciones
 
-* **Violación:** la pérdida de control, el compromiso, la divulgación no autorizada, la adquisición no autorizada o cualquier evento similar donde: una persona que no sea un usuario autorizado accede o potencialmente accede a información de identificación personal; o un usuario autorizado accede a información de identificación personal para un propósito distinto al autorizado. Fuente: NIST SP 800-53 Rev. 5
+---
 
-* **Continuidad Comercial (BC):** Acciones, procesos y herramientas para garantizar que una organización pueda continuar con las operaciones críticas durante una contingencia.
+### A
 
-* **Plan de continuidad comercial (BCP):** la documentación de un conjunto predeterminado de instrucciones o procedimientos que describen cómo se mantendrán los procesos comerciales/misión de una organización durante y después de una interrupción significativa.
+* 📊 **Análisis de impacto comercial (BIA)**
+  > un análisis de los requisitos, funciones e interdependencias de un sistema de información que se utiliza para caracterizar los requisitos y prioridades de contingencia del sistema en caso de una interrupción significativa. (Referencia: https://csrc.nist.gov/glossary/term/business-impact-analysis)
 
-* **Análisis de impacto comercial (BIA):** un análisis de los requisitos, funciones e interdependencias de un sistema de información que se utiliza para caracterizar los requisitos y prioridades de contingencia del sistema en caso de una interrupción significativa. Referencia: `https://csrc.nist.gov/glossary/term/business-impact-analysis`
+---
 
-* **Recuperación ante desastres (DR):** en términos de sistemas de información, las actividades necesarias para restaurar los servicios de comunicaciones y de TI en una organización durante y después de una interrupción, interrupción o perturbación de cualquier tipo o escala.
+### C
 
-* **Plan de recuperación ante desastres (DRP):** los procesos, políticas y procedimientos relacionados con la preparación para la recuperación o la continuación de las funciones comerciales críticas, la infraestructura tecnológica, los sistemas y las aplicaciones de una organización después de que la organización experimente un desastre. Un desastre es cuando las funciones comerciales críticas de una organización no se pueden realizar a un nivel aceptable dentro de un período predeterminado después de una interrupción.
+* 🛡️ **Centro de operaciones de seguridad (SOC)**
+  > una función organizativa centralizada realizada por un equipo de seguridad de la información que monitorea, detecta y analiza eventos en la red o el sistema para prevenir y resolver problemas antes de que provoquen interrupciones comerciales.
 
-* **Evento:** Cualquier ocurrencia observable en una red o sistema. Fuente: NIST SP 800-61 Rev. 2
+* 🏢 **Continuidad Comercial (BC)**
+  > Acciones, procesos y herramientas para garantizar que una organización pueda continuar con las operaciones críticas durante una contingencia.
 
-* **Exploit:** Un ataque particular. Se llama así porque estos ataques aprovechan las vulnerabilidades del sistema.
+---
 
-* **Incidente:** un evento que real o potencialmente pone en peligro la confidencialidad, integridad o disponibilidad de un sistema de información o la información que el sistema procesa, almacena o transmite.
+### E
 
-* **Manejo de incidentes:** la mitigación de las violaciones de las políticas de seguridad y las prácticas recomendadas. Fuente: NIST SP 800-61 Rev. 2
+* 🔵 **Evento (Event)**
+  > Cualquier ocurrencia observable en una red o sistema. (Fuente: NIST SP 800-61 Rev. 2)
 
-* **Respuesta a incidentes (IR):** la mitigación de las violaciones de las políticas de seguridad y las prácticas recomendadas. Fuente: NIST SP 800-61 Rev. 2
+* 💥 **Eventos adversos**
+  > eventos con una consecuencia negativa, como bloqueos del sistema, inundaciones de paquetes de red, uso no autorizado de privilegios del sistema, desfiguración de una página web o ejecución de código malicioso que destruye datos.
 
-* **Plan de respuesta a incidentes (IRP):** la documentación de un conjunto predeterminado de instrucciones o procedimientos para detectar, responder y limitar las consecuencias de un ciberataque malicioso contra los sistemas de información de una organización. Fuente: NIST SP 800-34 Rev 1
+* 💣 **Exploit**
+  > Un ataque particular. Se llama así porque estos ataques aprovechan las vulnerabilidades del sistema.
 
-* **Intrusión:** un evento de seguridad, o una combinación de eventos de seguridad, que constituye un incidente de seguridad en el que un intruso obtiene o intenta obtener acceso a un sistema o recurso del sistema sin autorización. Fuente: IETF RFC 4949 Ver 2
+---
 
-* **Centro de operaciones de seguridad:** una función organizativa centralizada realizada por un equipo de seguridad de la información que monitorea, detecta y analiza eventos en la red o el sistema para prevenir y resolver problemas antes de que provoquen interrupciones comerciales.
+### I
 
-* **Vulnerabilidad:** debilidad en un sistema de información, procedimientos de seguridad del sistema, controles internos o implementación que podría ser explotada o desencadenada por una fuente de amenaza. Fuente: NIST SP 800-128.
+* ⚠️ **Incidente (Incident)**
+  > un evento que real o potencialmente pone en peligro la confidencialidad, integridad o disponibilidad de un sistema de información o la información que el sistema procesa, almacena o transmite.
 
-* **Zero Day:** una vulnerabilidad del sistema previamente desconocida con el potencial de explotación sin riesgo de detección o prevención porque, en general, no se ajusta a patrones, firmas o métodos reconocidos.
+* 👣 **Intrusión (Intrusion)**
+  > un evento de seguridad, o una combinación de eventos de seguridad, que constituye un incidente de seguridad en el que un intruso obtiene o intenta obtener acceso a un sistema o recurso del sistema sin autorización. (Fuente: IETF RFC 4949 Ver 2)
+
+---
+
+### M
+
+* ⚙️ **Manejo de incidentes (Incident Handling)**
+  > la mitigación de las violaciones de las políticas de seguridad y las prácticas recomendadas. (Fuente: NIST SP 800-61 Rev. 2)
+
+---
+
+### P
+
+* 📜 **Plan de continuidad comercial (BCP)**
+  > la documentación de un conjunto predeterminado de instrucciones o procedimientos que describen cómo se mantendrán los procesos comerciales/misión de una organización durante y después de una interrupción significativa.
+
+* 🚑 **Plan de recuperación ante desastres (DRP)**
+  > los procesos, políticas y procedimientos relacionados con la preparación para la recuperación o la continuación de las funciones comerciales críticas, la infraestructura tecnológica, los sistemas y las aplicaciones de una organización después de que la organización experimente un desastre. Un desastre es cuando las funciones comerciales críticas de una organización no se pueden realizar a un nivel aceptable dentro de un período predeterminado después de una interrupción.
+
+* 📑 **Plan de respuesta a incidentes (IRP)**
+  > la documentación de un conjunto predeterminado de instrucciones o procedimientos para detectar, responder y limitar las consecuencias de un ciberataque malicioso contra los sistemas de información de una organización. (Fuente: NIST SP 800-34 Rev 1)
+
+---
+
+### R
+
+* 🌀 **Recuperación ante desastres (DR)**
+  > en términos de sistemas de información, las actividades necesarias para restaurar los servicios de comunicaciones y de TI en una organización durante y después de una interrupción, interrupción o perturbación de cualquier tipo o escala.
+
+* responders **Respuesta a incidentes (IR)**
+  > la mitigación de las violaciones de las políticas de seguridad y las prácticas recomendadas. (Fuente: NIST SP 800-61 Rev. 2)
+
+---
+
+### V
+
+* 🚫 **Violación (Breach)**
+  > la pérdida de control, el compromiso, la divulgación no autorizada, la adquisición no autorizada o cualquier evento similar donde: una persona que no sea un usuario autorizado accede o potencialmente accede a información de identificación personal; o un usuario autorizado accede a información de identificación personal para un propósito distinto al autorizado. (Fuente: NIST SP 800-53 Rev. 5)
+
+* 🕳️ **Vulnerabilidad (Vulnerability)**
+  > debilidad en un sistema de información, procedimientos de seguridad del sistema, controles internos o implementación que podría ser explotada o desencadenada por una fuente de amenaza. (Fuente: NIST SP 800-128)
+
+---
+
+### Z
+
+* 0️⃣ **Zero Day**
+  > una vulnerability del sistema previamente desconocida con el potencial de explotación sin riesgo de detección o prevención porque, en general, no se ajusta a patrones, firmas o métodos reconocidos.
