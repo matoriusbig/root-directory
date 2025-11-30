@@ -124,10 +124,15 @@ PC-Beto ➝ Puerto 4
 Para que nunca se te olvide, este es el algoritmo del Switch:
 * Llega una trama.
 * ¿Está la MAC de ORIGEN en mi tabla?
+
 **NO❌:** La anoto junto con su puerto (Aprendizaje).
+
 **SÍ✔️:** Reinicio su temporizador (para no borrarla por inactividad).
+
 * ¿Está la MAC de DESTINO en mi tabla?
+
 **SÍ✔️:** Envío la trama solo a ese puerto (Unicast).
+
 **NO❌:** Envío la trama a todos los puertos menos al origen (Flooding).
 
 > 💀 **Nota: El Ataque MAC Flooding**
