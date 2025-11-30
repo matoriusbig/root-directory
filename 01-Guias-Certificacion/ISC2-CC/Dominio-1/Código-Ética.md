@@ -6,8 +6,14 @@ De todos los dominios, este es el que nos define como profesionales. La ciberseg
 
 El código se resume en cuatro reglas fundamentales:
 
-> Proteger la sociedad, el bien común, la confianza pública y la infraestructura.En simple: Nuestra primera lealtad es con la gente y la seguridad pública.Actuar honorable, honesta, justa, responsable y legalmente.En simple: Ser una de las "personas buenas". Cumplir la ley y actuar con integridad.Brindar un servicio diligente y competente a los "principales" (empleadores y clientes).En simple: Hacer bien nuestro trabajo. Mantenernos actualizados y proteger a quienes confían en nosotros.Avanzar y proteger la profesión.En simple: Cuidar la reputación de nuestra industria, compartir conocimiento (como este write-up) y ser un mentor.
-> 
+* Proteger la sociedad, el bien común, la confianza pública y la infraestructura.En simple: Nuestra primera lealtad es con la gente y la seguridad pública.
+
+* Actuar honorable, honesta, justa, responsable y legalmente.En simple: Ser una de las "personas buenas". Cumplir la ley y actuar con integridad.
+
+* Brindar un servicio diligente y competente a los "principales" (empleadores y clientes).En simple: Hacer bien nuestro trabajo. 
+
+* Mantenernos actualizados y proteger a quienes confían en nosotros.Avanzar y proteger la profesión.En simple: Cuidar la reputación de nuestra industria, compartir conocimiento (como este write-up) y ser un mentor.
+
 
 ### ⚖️ Ética en la Práctica: Casos de Estudio
 
