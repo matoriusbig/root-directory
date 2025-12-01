@@ -41,7 +41,7 @@ Imagina un solo cable largo (el "bus" o backbone) que recorre toda la oficina. T
 Los dispositivos se conectan en un círculo cerrado. Los datos viajan en una sola dirección (como un tren de juguete en una vía circular).
 * **Ventaja:** No hay colisiones de datos (choques) porque el tráfico es ordenado.
 * **Desventaja:** Si un nodo falla, se rompe el círculo y la red cae.
-* **La Excepción (FDDI):** Existe una versión avanzada llamada **FDDI** (Fiber Distributed Data Interface). Usa **dos anillos** (uno primario y uno de respaldo). Si el primario falla, el secundario salva el día. Se usa en centros de datos o campus por su alta fiabilidad y distancia (hasta 200 km).
+* **La Excepción (FDDI):** Existe una versión avanzada llamada **FDDI** (Fiber Distributed Data Interface). Usa **dos anillos de fibra optica** (uno primario y uno de respaldo). Si el primario falla, el secundario salva el día. Se usa en centros de datos o campus por su alta fiabilidad y distancia (hasta 200 km).
 
 <img width="751" height="428" alt="image" src="https://github.com/user-attachments/assets/09dde6ca-fd92-40d0-88b6-581bd79a6483" />
 
