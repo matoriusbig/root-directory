@@ -71,7 +71,7 @@ Esta es una variación de la estrella, usada masivamente para conectar sucursale
 > 3. Vuelas del Hub a otro Hub (ej. Los Ángeles).
 > 4. Finalmente vuelas a Hawái (Spoke/Radio).
 
-<img width="561" height="528" alt="image" src="https://github.com/user-attachments/assets/b71256d3-c88a-4ae1-aac1-732128278e8c" />
+<img width="831" height="410" alt="image" src="https://github.com/user-attachments/assets/d9b1a87a-ab11-4a31-b3c0-c1f93cc2afd4" />
 
 
 > **💡 Nota:** En redes, hacemos lo mismo para ahorrar dinero. En lugar de conectar cada oficina pequeña con todas las demás (carísimo), conectamos todas las oficinas regionales (**Spokes**) a una oficina central (**Hub**). Los datos viajan al Hub y de ahí se distribuyen.
