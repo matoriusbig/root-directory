@@ -1,4 +1,4 @@
-# 📚 💀 CIBER-PATH
+H# 📚 💀 CIBER-PATH
 **Bienvenido. Has encontrado el mapa del tesoro para tu carrera en ciberseguridad.**
 
 <p align="center">
@@ -149,7 +149,8 @@ Esta colección está enfocada en aprobar el examen de certificación **CompTIA 
 
 <details>
 <summary><strong>📶 Dominio 2: Modelo OSI</strong></summary>
- [2.1 - Modelo OSI](./Redes/02-modelo-osi/01-modelo-osi.md)
+  
+* [2.1 - Modelo OSI](./Redes/02-modelo-osi/01-modelo-osi.md)
 * [2.2 - Capa 1](./Redes/02-modelo-osi/02-capa-1.md)
 * [2.3 - Capa 2](./Redes/02-modelo-osi/03-capa-2.md)
 * [2.4 - Capa 3](./Redes/02-modelo-osi/04-capa-3.md)
@@ -160,6 +161,3 @@ Esta colección está enfocada en aprobar el examen de certificación **CompTIA 
 * [2.9 - Encapsulación](./Redes/02-modelo-osi/09-encapsulacion-desencapsulacion.md)
 * [2.10 - Entendiendo el Modelo OSI](./Redes/02-modelo-osi/10-entendiendo-osi.md)
 </details>
-
-
-
