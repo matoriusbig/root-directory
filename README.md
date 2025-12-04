@@ -1,4 +1,4 @@
-# 📚 CIBER-PATH
+# 📚 💀 CIBER-PATH
 **Bienvenido. Has encontrado el mapa del tesoro para tu carrera en ciberseguridad.**
 
 <p align="center">
@@ -6,6 +6,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Matoriusbig/CyberSec-Cert-Mastery?style=for-the-badge&color=green&label=ACTUALIZADO">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge">
 </p>
+
 ---
 
 ## 👋 ¡Bienvenido/a futuro Hacker!
@@ -26,7 +27,6 @@ A diferencia de un título universitario que toma 4 o 5 años, una certificació
 
 > **💡Nota:** Este repositorio te ofrece el material para **preparar** esas certificaciones totalmente GRATIS. Usar este contenido, crear tus propios laboratorios y documentar tu proceso te servirá para crear un **Portafolio Personal**, algo vital para conseguir tu primer empleo.
 
----
 
 ## 🏗️ Los 4 Pilares Fundamentales
 
@@ -38,8 +38,6 @@ Para iniciar, céntrate en estos 4 fundamentos que encontrarás desglosados en e
 2.  **🐧 Linux:** Es el sistema operativo del 90% de los servidores del mundo y la herramienta principal del hacker. Aprenderás a perderle el miedo a la pantalla negra (terminal).
 3.  **💻 Programación (Scripting):** No necesitas ser un desarrollador de software, pero sí necesitas saber leer código y automatizar tareas básicas (Python y Bash son tus amigos).
 4.  **🛡️ Conceptos de Seguridad:** La teoría detrás de la defensa: confidencialidad, integridad, gestión de riesgos y tipos de ataques.
-
----
 
 ## 🗺️ Tu Hoja de Ruta Sugerida (Roadmap)
 
@@ -57,7 +55,6 @@ Si no sabes en qué orden estudiar, te recomiendo seguir este camino lógico dis
 ### 4. 🔐 CompTIA Security+
 * **¿Por qué cuarto?** Es el **estándar de oro** para el primer empleo. La mayoría de ofertas de trabajo para "Junior" piden esta certificación. Con la base de las tres anteriores, esta se te hará mucho más llevadera.
 
----
 
 ## 💡 Consejos
 
@@ -70,18 +67,19 @@ Este campo requiere **aprendizaje constante**. Puede ser frustrante, pero la pas
 ¡Mucho éxito y *happy hacking*!
 <div align="center">
 
-
-
 </div>
----
+
+--- 
+
 ## 🧭 Material De Estudio
 
 Cada es una colección de material de estudio **(tipo curso)** detalladas con todo lo necesario para aprobar las certicaciones!
 
-### 🔒Ciberseguridad:
+### 🔒Teoría de Ciberseguridad:
  
-#### 1. (ISC)² Certified in Cybersecurity (CC)
-![[Pasted image 20251204171357.png]]
+#### 2. (ISC)² Certified in Cybersecurity (CC)
+<img width="512" height="512" alt="Pasted image 20251204171357" src="https://github.com/user-attachments/assets/a35b94df-fdfc-444e-9663-ba2dd3f8e064" />
+
 Esta colección está enfocada en aprobar el examen de certificación **ISC2 CC**!
 
 <details>
@@ -134,9 +132,9 @@ Esta colección está enfocada en aprobar el examen de certificación **ISC2 CC*
 
 ### 🌐Redes:
 #### 1. (CompTIA) Network Administrator (Network+)
-![[Pasted image 20251204171545.png]]
-Esta colección está enfocada en aprobar el examen de certificación **CompTIA Network+**
+<img width="601" height="601" alt="Pasted image 20251204171545" src="https://github.com/user-attachments/assets/5a764fca-7c67-4355-bddd-0de8dbb24cda" />
 
+Esta colección está enfocada en aprobar el examen de certificación **CompTIA Network+**
 <details>
 <summary><strong>🌐 Dominio 1: Fundamentos de Redes</strong></summary>
 
