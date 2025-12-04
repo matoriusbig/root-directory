@@ -1,11 +1,11 @@
 <!-- Índice Maestro (Map of Content) para el repositorio "CyberPath" -->
 
-#### 🗺️ Índice de Redes
+### 🗺️ Índice de Redes
 
 <details>
 <summary><strong>🌐 Fundamentos de Redes</strong></summary>
   
-  - [1.1 - Fundamentos](Redes/01-fundamentos-de-red/01-fundamentos-de-red.md)
+  - [1.1 - Fundamentos](Redes/01-fundamentos-de-red/01-fundamentos-redes.md)
   - [1.2 - Componentes de la Red](Redes/01-fundamentos-de-red/02-componentes-de-red.md)
   - [1.3 - Recuersos de la red](Redes/01-fundamentos-de-red/03-recursos-de-red.md)
   - [1.4 - Geografía de la red](Redes/01-fundamentos-de-red/04-geografia-de-la-red.md)
