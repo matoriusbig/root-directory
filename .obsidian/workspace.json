@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "pentesting/01-teoria/11-post-engagement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "11-post-engagement"
             }
           }
         ]
@@ -180,18 +180,35 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7043badc8830d36b",
+  "active": "e7eb49b2974913f1",
   "lastOpenFiles": [
-    "Ciberseguridad/Ciberseguridad.md",
+    "pentesting/01-teoria/10-proof-of-concept.md",
+    "pentesting/01-teoria/09-movimiento-lateral.md",
+    "pentesting/01-teoria/08-post-explotacion.md",
+    "pentesting/01-teoria/07-explotacion.md",
+    "pentesting/01-teoria/06-evualuacion-de-vulnerabilidades.md",
+    "pentesting/01-teoria/05-recopilacion-de-informacion.md",
+    "pentesting/01-teoria/04-pre-compromiso.md",
+    "pentesting/01-teoria/01-penetration-testing.md",
+    "pentesting/01-teoria/11-post-engagement.md",
+    "pentesting/01-teoria",
+    "pentesting/01-teoria/assets/data-destroyed.png",
+    "pentesting/01-teoria/assets/reporte-final-pentesting.png",
+    "pentesting/01-teoria/assets/poc.png",
+    "pentesting/assets/Captura de pantalla 2025-12-07 040516.png",
+    "pentesting/assets/Captura de pantalla 2025-12-07 040438.png",
+    "pentesting/01-teoria/assets/tunneling.png",
+    "pentesting/01-teoria/assets/ciclo-movimiento-lateral.png",
+    "pentesting/01-teoria/03-proceso-pentesting.md",
+    "pentesting/01-teoria/02-leyes-reglamentos.md",
+    "pentesting/01-teoria/assets/escalada-privilegios.png",
+    "pentesting/01-teoria/assets/post-intrucion-lifecycle.png",
+    "pentesting/01-teoria/assets/compromised-host.png",
     "README.md",
+    "Ciberseguridad/Ciberseguridad.md",
     "Redes/Redes.md",
     "Ciberseguridad/03-control-de-acceso/02-controles-acceso-fisico.md",
-    "893bb620b71111ef888eca5646afc7d8.webp",
     "IMG",
-    "893bb620b71111ef888eca5646afc7d8 1.webp",
-    "IMG/Pasted image 20251204171545.png",
-    "IMG/Pasted image 20251204171453.png",
-    "IMG/Pasted image 20251204171357.png",
     "Ciberseguridad/01-principios-de-seguridad/01-conceptos-de-seguridad.md",
     "Sin título.base",
     "Sin título.canvas",
@@ -205,14 +222,6 @@
     "Redes/01-fundamentos-de-red/04-geografia-de-la-red.md",
     "Redes/01-fundamentos-de-red/03-recursos-de-red.md",
     "Redes/01-fundamentos-de-red/01-fundamentos-redes.md",
-    "Redes/01-fundamentos-de-red/02-componentes-de-red.md",
-    "Ciberseguridad/02-respuesta-a-incidentes/03-respuesta-incidentes.md",
-    "Ciberseguridad/02-respuesta-a-incidentes/02-recuperacion-desastres.md",
-    "Ciberseguridad/02-respuesta-a-incidentes/01-continuidad-negocio.md",
-    "Ciberseguridad/01-principios-de-seguridad/05-codigo-etica.md",
-    "Ciberseguridad/01-principios-de-seguridad/04-gobernanza-seguridad.md",
-    "Ciberseguridad/01-principios-de-seguridad/03-controles-de-seguridad.md",
-    "Ciberseguridad/01-principios-de-seguridad/02-gestion-riesgos.md",
-    "Linux/01-Introducción-a-Linux.md"
+    "Redes/01-fundamentos-de-red/02-componentes-de-red.md"
   ]
 }
