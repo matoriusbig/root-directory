@@ -1,21 +1,19 @@
-# 💀ROOT-DIRECTORY
-**Bienvenido. Has encontrado el mapa del tesoro para tu carrera en ciberseguridad.**
+# 📚 CIBER-VOULT
+**Bienvenido. Has encontrado un VOULT del tesoro para tu carrera en ciberseguridad.**
 
 <p align="center">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Matoriusbig/CyberSec-Cert-Mastery?style=for-the-badge&color=blueviolet&label=ACTIVIDAD">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Matoriusbig/CyberSec-Cert-Mastery?style=for-the-badge&color=green&label=ACTUALIZADO">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge">
 </p>
-
 ---
 
 ## 👋 ¡Bienvenido/a futuro Hacker!
 
 Si estás leyendo esto, probablemente sientas curiosidad por la Ciberseguridad pero no sabes por dónde empezar. **Estás en el lugar correcto.**
 
-Este repositorio es una colección organizada y gratuita de material de estudio. No importa si vienes de la contabilidad, el derecho, la construcción o si acabas de terminar la escuela; aquí encontrarás una hoja de ruta clara para transformarte en un profesional del sector.
-
-***Hecho con ❤️ y ☕ para la comunidad.***
+Este repositorio es una colección organizada y gratuita apuntes y material de estudio. No importa si vienes de la contabilidad, el derecho, la construcción o si acabas de terminar la escuela; aquí encontrarás una hoja de ruta clara para transformarte en un profesional del sector.
+*Hecho con ❤️ y ☕ para la comunidad.*
 
 ### 🤔 ¿Qué son las Certificaciones y por qué importan?
 
@@ -28,6 +26,7 @@ A diferencia de un título universitario que toma 4 o 5 años, una certificació
 
 > **💡Nota:** Este repositorio te ofrece el material para **preparar** esas certificaciones totalmente GRATIS. Usar este contenido, crear tus propios laboratorios y documentar tu proceso te servirá para crear un **Portafolio Personal**, algo vital para conseguir tu primer empleo.
 
+---
 
 ## 🏗️ Los 4 Pilares Fundamentales
 
@@ -35,14 +34,13 @@ Antes de intentar hackear la NASA necesitas entender cómo funcionan las cosas. 
 
 Para iniciar, céntrate en estos 4 fundamentos que encontrarás desglosados en este repositorio:
 
-1.  **🛡️ Conceptos de Seguridad:** La teoría detrás de la defensa: confidencialidad, integridad, gestión de riesgos y tipos de ataques.
-2.  **🌐 Redes (Networking):** Es la carretera por donde viajan los datos. Aprenderás cómo se conectan los ordenadores, qué es una IP y cómo funciona internet.
-3.  **🐧 Linux:** Es el sistema operativo del 90% de los servidores del mundo y la herramienta principal del hacker. Aprenderás a perderle el miedo a la pantalla negra (terminal).
-4.  **💻 Programación (Scripting):** No necesitas ser un desarrollador de software, pero sí necesitas saber leer código y automatizar tareas básicas (Python y Bash son tus amigos).
-
-> * **💡Nota:** Recomiendo seguir el orden de 1 al 4 para comenzar a estudiar si estas desde 0.
-
-## 🧠 Consejos
+1.  **🌐 Redes (Networking):** Es la carretera por donde viajan los datos. Aprenderás cómo se conectan los ordenadores, qué es una IP y cómo funciona internet.
+2.  **🐧 Linux:** Es el sistema operativo del 90% de los servidores del mundo y la herramienta principal del hacker. Aprenderás a perderle el miedo a la pantalla negra (terminal).
+3.  **💻 Programación (Scripting):** No necesitas ser un desarrollador de software, pero sí necesitas saber leer código y automatizar tareas básicas (Python y Bash son tus amigos).
+4.  **🛡️ Conceptos de Seguridad:** La teoría detrás de la defensa: confidencialidad, integridad, gestión de riesgos y tipos de ataques.
+   
+---
+## 💡 Consejos
 
 * **🇬🇧 El Inglés es tu Multiplicador:** Es **extremadamente importante**. Los mejores recursos, la documentación y los salarios más altos están en inglés. El material aquí te ayudará a iniciarte si no entiendes mucho de ingles, es muy recomendable mientras usas el material de este repositorio estudiar inglés a la vez.
 * **🧑‍🤝‍🧑 El *Networking* es un MUST:** Únete a comunidades (Reddit, Discord, LinkedIn). Es probable que tu primer trabajo venga de una recomendación, no dudes en contactarme si estas comenzando, será un gusto conocerte para mi!.
@@ -53,19 +51,18 @@ Este campo requiere **aprendizaje constante**. Puede ser frustrante, pero la pas
 ¡Mucho éxito y *happy hacking*!
 <div align="center">
 
+
+
 </div>
+---
+## 🧭 Material De Estudio
 
---- 
+Cada es una colección de material de estudio **(tipo curso)** detalladas con todo lo necesario para aprobar las certicaciones!
 
-## 🧭 Certificaciones
-
-Cada es una colección de material de estudio **(tipo curso)** detalladas con todo lo necesario para aprobar la certicación señalada!
-
-### 🔒Teoría de Ciberseguridad:
+### 🔒Ciberseguridad:
  
-#### 2. (ISC)² Certified in Cybersecurity (CC)
-<img width="512" height="512" alt="Pasted image 20251204171357" src="https://github.com/user-attachments/assets/a35b94df-fdfc-444e-9663-ba2dd3f8e064" />
-
+#### 1. (ISC)² Certified in Cybersecurity (CC)
+![[Pasted image 20251204171357.png]]
 Esta colección está enfocada en aprobar el examen de certificación **ISC2 CC**!
 
 <details>
@@ -118,25 +115,24 @@ Esta colección está enfocada en aprobar el examen de certificación **ISC2 CC*
 
 ### 🌐Redes:
 #### 1. (CompTIA) Network Administrator (Network+)
-<img width="601" height="601" alt="Pasted image 20251204171545" src="https://github.com/user-attachments/assets/5a764fca-7c67-4355-bddd-0de8dbb24cda" />
-
+![[Pasted image 20251204171545.png]]
 Esta colección está enfocada en aprobar el examen de certificación **CompTIA Network+**
+
 <details>
 <summary><strong>🌐 Dominio 1: Fundamentos de Redes</strong></summary>
 
-* [1.1 - Fundamentos](./Redes/01-fundamentos-de-red/01-fundamentos-redes.md)
+* [1.1 - Fundamentos](01-fundamentos-redes.md)
 * [1.2 - Componentes de la Red](./7Redes/01-fundamentos-de-red/02-componentes-de-red.md)
-* [1.3 - Recuersos de la red](./Redes/01-fundamentos-de-red/03-recursos-de-red.md)
-* [1.4 - Geografía de la red](./Redes/01-fundamentos-de-red/04-geografia-de-la-red.md)
-* [1.5 - Entendiendo Redes Geográficas](./Redes/01-fundamentos-de-red/05-entendiendo-redes-geograficas.md)
-* [1.6 - Topología Red Cableada](./Redes/01-fundamentos-de-red/06-topologia-de-red-cableada.md)
-* [1.7 - Topología Red Inalámbrica](./Redes/01-fundamentos-de-red/07-topologia-de-red-inalambrica.md)
+* [1.3 - Recuersos de la red](03-recursos-de-red.md)
+* [1.4 - Geografía de la red](04-geografia-de-la-red.md)
+* [1.5 - Entendiendo Redes Geográficas](05-entendiendo-redes-geograficas.md)
+* [1.6 - Topología Red Cableada](06-topologia-de-red-cableada.md)
+* [1.7 - Topología Red Inalámbrica](07-topologia-de-red-inalambrica.md)
 </details>
 
 <details>
 <summary><strong>📶 Dominio 2: Modelo OSI</strong></summary>
-  
-* [2.1 - Modelo OSI](./Redes/02-modelo-osi/01-modelo-osi.md)
+ [2.1 - Modelo OSI](./Redes/02-modelo-osi/01-modelo-osi.md)
 * [2.2 - Capa 1](./Redes/02-modelo-osi/02-capa-1.md)
 * [2.3 - Capa 2](./Redes/02-modelo-osi/03-capa-2.md)
 * [2.4 - Capa 3](./Redes/02-modelo-osi/04-capa-3.md)
@@ -147,3 +143,6 @@ Esta colección está enfocada en aprobar el examen de certificación **CompTIA 
 * [2.9 - Encapsulación](./Redes/02-modelo-osi/09-encapsulacion-desencapsulacion.md)
 * [2.10 - Entendiendo el Modelo OSI](./Redes/02-modelo-osi/10-entendiendo-osi.md)
 </details>
+
+
+
