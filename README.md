@@ -1,4 +1,4 @@
-# 📚 CIBER-VOULT
+# ☠️ ROOT-DIRECTORY
 **Bienvenido. Has encontrado un VOULT del tesoro para tu carrera en ciberseguridad.**
 
 <p align="center">
