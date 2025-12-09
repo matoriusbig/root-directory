@@ -81,7 +81,8 @@ Lo que tú ves. No es el programa en sí (como Chrome), sino los protocolos que 
 
 - **Protocolos:** HTTP (Web), FTP (Archivos), SMTP (Email), DNS.
     
-![[OSI.png]]
+<img width="723" height="702" alt="OSI" src="https://github.com/user-attachments/assets/edbdb4be-7f49-4849-9078-edb8b3ebb27d" />
+
 
 ---
 
@@ -89,7 +90,8 @@ Lo que tú ves. No es el programa en sí (como Chrome), sino los protocolos que 
 
 Si el OSI es la teoría, el **TCP/IP** es la práctica. Es una versión condensada de 4 capas que es la que realmente usamos en Internet.
 
-![[TCP_IP.png]]
+<img width="765" height="580" alt="TCP_IP" src="https://github.com/user-attachments/assets/9f73b6d6-ecdc-4720-8000-0493745d6be4" />
+
 
 | **Capa TCP/IP**              | **Equivalente OSI**              | **Descripción Práctica**                                               |
 | ---------------------------- | -------------------------------- | ---------------------------------------------------------------------- |
@@ -138,8 +140,9 @@ Al final del día, todo esto debe convertirse en algo físico para viajar.
     
 3. **Full-Duplex:** Ambos hablan y escuchan **simultáneamente**. (Ej: Una llamada telefónica o tu conexión a Internet actual).
     
+![modos-transmision](https://github.com/user-attachments/assets/480f9f36-41c9-4495-95fe-55b56ae31cbe)
 
-![[modos-transmision.jpg]]
+
 
 #### Medios de Transmisión (La Carretera)
 
@@ -161,4 +164,117 @@ Al final del día, todo esto debe convertirse en algo físico para viajar.
 - **TCP vs UDP:** ¿Quieres fiabilidad (correos, web)? Usas **TCP**. ¿Quieres velocidad (streaming, llamadas)? Usas **UDP**.
     
 - **Full-Duplex:** Es el estándar moderno; permite enviar y recibir datos a la vez.
-    
+
+-----
+
+🧠 Comprobación de Conocimientos: OSI y TCP/IP
+Ya has navegado por las capas teóricas. Ahora, vamos a ver si puedes identificar dónde encaja cada pieza del rompecabezas en el mundo real. ¡A por ello!
+
+1. Estamos mirando los cables físicos y la electricidad. ¿Qué capa del modelo OSI es responsable de las conexiones físicas, como los cables Ethernet, y la transmisión de bits puros?
+
+a) Network Layer (Capa de Red) b) Physical Layer (Capa Física) c) Data Link Layer (Capa de Enlace de Datos) d) Transport Layer (Capa de Transporte)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) Physical Layer (Capa Física)
+
+Explicación: Es la base de todo (Capa 1). Aquí no nos preocupamos por direcciones IP ni datos lógicos, solo nos importa el hardware: cables, voltajes, pines y luz. Si puedes tocarlo, probablemente sea Capa 1.
+
+</details>
+
+2. Necesitamos enviar un paquete a una dirección IP específica en otra ciudad. Nombra la capa OSI que se ocupa del direccionamiento lógico (IP) y de encontrar la mejor ruta (enrutamiento).
+
+a) Data Link Layer (Capa de Enlace de Datos) b) Transport Layer (Capa de Transporte) c) Network Layer (Capa de Red) d) Session Layer (Capa de Sesión)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+c) Network Layer (Capa de Red)
+
+Explicación: La Capa 3 es el "GPS" de la red. Se encarga de las direcciones lógicas (como las IPs) y determina la ruta que deben seguir los datos a través de diferentes redes para llegar a su destino.
+
+</details>
+
+3. Necesitamos enviar un archivo importante y no podemos permitirnos perder ni un solo bit. ¿Qué protocolo garantiza la entrega fiable de datos, verifica que llegaron bien y opera en la Capa de Transporte?
+
+a) UDP (User Datagram Protocol) b) IP (Internet Protocol) c) TCP (Transmission Control Protocol) d) ICMP (Internet Control Message Protocol)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+c) TCP (Transmission Control Protocol)
+
+Explicación: TCP es el protocolo "obsesivo". Establece una conexión, numera los paquetes y exige un recibo (ACK) por cada uno. Si algo se pierde, lo reenvía. Fiabilidad total.
+
+</details>
+
+4. Estás conectando computadoras en una oficina usando direcciones MAC para mover datos localmente. ¿En qué capa del modelo OSI operan principalmente los Switches (conmutadores)?
+
+a) Layer 1 - Physical b) Layer 2 - Data Link (Enlace de Datos) c) Layer 3 - Network d) Layer 4 - Transport
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) Layer 2 - Data Link (Enlace de Datos)
+
+Explicación: Los Switches tradicionales leen las direcciones físicas (MAC Addresses) para saber a qué puerto específico enviar la trama. Esto ocurre en la Capa 2.
+
+</details>
+
+5. El modelo TCP/IP es más simple que el OSI. ¿Qué capa del modelo TCP/IP agrupa y corresponde a las capas de Aplicación, Presentación y Sesión del modelo OSI?
+
+a) Network Access Layer b) Internet Layer c) Transport Layer d) Application Layer
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+d) Application Layer
+
+Explicación: El modelo TCP/IP condensa las tres capas superiores del OSI (todo lo que tiene que ver con el software, el formato y la sesión del usuario) en una sola gran capa llamada Aplicación.
+
+</details>
+
+6. Antes de que veas una página web segura, los datos deben descifrarse y traducirse a un formato que tu navegador entienda. ¿Qué capa del modelo OSI gestiona el cifrado de datos y la conversión de formatos?
+
+a) Application Layer (Capa de Aplicación) b) Presentation Layer (Capa de Presentación) c) Session Layer (Capa de Sesión) d) Transport Layer (Capa de Transporte)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) Presentation Layer (Capa de Presentación)
+
+Explicación: La Capa 6 actúa como el "Traductor". Se asegura de que los datos sean legibles (formato JPEG, ASCII, etc.) y maneja el cifrado/descifrado (como SSL/TLS).
+
+</details>
+
+7. Estás navegando por Internet leyendo este texto. Nombra un protocolo fundamental utilizado para la navegación web que opera en la Capa de Aplicación.
+
+a) HTTP (Hypertext Transfer Protocol) b) TCP (Transmission Control Protocol) c) IP (Internet Protocol) d) ARP (Address Resolution Protocol)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+a) HTTP (Hypertext Transfer Protocol)
+
+Explicación: HTTP (o su versión segura HTTPS) es el lenguaje que usan los navegadores y servidores web para comunicarse. Es lo que ves al principio de la URL y vive en la capa más alta, la de Aplicación.
+
+</details>
+
+8. Si un archivo grande se divide en pedazos pequeños para enviarse, alguien debe asegurarse de rearmarlos en el orden correcto al llegar. ¿Qué capa OSI asegura que los segmentos se transfieran de forma fiable y en secuencia?
+
+a) Network Layer b) Transport Layer c) Session Layer d) Data Link Layer
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) Transport Layer
+
+Explicación: La Capa 4 (Transporte) toma los datos de la aplicación, los corta en segmentos manejables y se asegura de que, en el otro extremo, se vuelvan a unir en el orden correcto, manejando el control de flujo y errores.
+
+</details>
+
+9. Estás viendo un streaming de video en vivo o jugando online y necesitas velocidad pura, aunque se pierdan algunos cuadros por el camino. ¿Qué protocolo proporciona una comunicación rápida y sin conexión en la Capa de Transporte?
+
+a) TCP b) FTP c) UDP d) SSH
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+c) UDP
+
+Explicación: UDP es el protocolo "rápido y furioso". No pierde tiempo estableciendo conexión ni verificando si los datos llegaron. Simplemente los envía. Es ideal para streaming y voz en tiempo real donde la velocidad es más importante que la perfección.
+
+</details>
+
