@@ -204,3 +204,135 @@ Son computadoras "con esteroides" diseñadas para servir a otros (Clientes).
     
 - **Firewalls** (físicos o software) son tus porteros de seguridad.
     
+
+---
+
+### 🧠 Comprobación de Conocimientos
+
+¡Es hora de validar lo aprendido! Lee cada pregunta, selecciona mentalmente la mejor opción y luego despliega la respuesta para verificar si diste en el clavo. ¡Tú puedes! 🚀
+
+**1. Necesitamos conectar dos sucursales de una empresa que están a kilómetros de distancia. ¿Qué tipo de cable de red es ideal para transmitir datos a largas distancias con una pérdida de señal mínima?**
+
+a) Cable Coaxial
+
+b) Cable de Par Trenzado (Ethernet)
+
+c) Fibra Óptica
+
+d) Cable Serial
+
+<details>
+
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **c) Fibra Óptica**
+    
+- **Explicación:** La fibra óptica utiliza luz en lugar de electricidad. Esto le permite transportar datos a distancias mucho mayores sin sufrir la degradación (atenuación) o interferencia electromagnética que afecta a los cables de cobre.
+    
+
+</details>
+
+
+**2. En el inmenso tráfico de internet, necesitamos un "policía de tráfico" que decida por dónde van los paquetes. ¿Qué protocolo es el encargado de gestionar el enrutamiento y la entrega de datos a través de las redes?**
+
+a) HTTP (Hypertext Transfer Protocol)
+
+b) IP (Internet Protocol)
+
+c) DNS (Domain Name System)
+
+d) FTP (File Transfer Protocol)
+
+<details>
+
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **b) IP (Internet Protocol)**
+    
+- **Explicación:** El protocolo IP es la base del enrutamiento. Proporciona las direcciones y la estructura necesaria para que los routers sepan dónde entregar el paquete. Sin IP, los datos no sabrían a dónde ir.
+    
+
+</details>
+
+**3. Al igual que tu computadora necesita Windows o Linux para funcionar, los dispositivos de red necesitan un cerebro. ¿Qué software se utiliza para supervisar y administrar las operaciones de la red (generalmente en switches y routers)?**
+
+a) Network Operating System (NOS)
+
+b) Network Interface Card (NIC)
+
+c) Virtual Private Network (VPN)
+
+d) Content Management System (CMS)
+
+<details>
+
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **a) Network Operating System (NOS)**
+    
+- **Explicación:** Un Sistema Operativo de Red (como Cisco IOS o Junos OS) es el software que controla el hardware de red, permitiendo a los administradores configurar rutas, seguridad y gestión del tráfico.
+    
+
+</details>
+
+**4. Piensa en la seguridad de tu propia laptop. ¿Qué software (generalmente de una sola palabra) se utiliza para proteger dispositivos individuales impidiendo el acceso no autorizado desde la red?**
+
+a) Router
+
+b) Switch
+
+c) Firewall
+
+d) Modem
+
+<details>
+
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **c) Firewall**
+    
+- **Explicación:** Un Firewall (cortafuegos) actúa como un portero de seguridad, analizando el tráfico entrante y saliente y bloqueando cualquier conexión que no cumpla con las reglas de seguridad establecidas.
+    
+
+</details>
+
+**5. Estás conectando tu PC de escritorio al router de tu casa. ¿Qué tipo de cable se utiliza comúnmente para conectar componentes dentro de una red de área local (LAN) para la transferencia de datos a alta velocidad?**
+
+a) Fibra Óptica Monomodo
+
+b) Cable Ethernet (Par Trenzado / RJ-45)
+
+c) Cable USB-C
+
+d) Línea Telefónica (DSL)
+
+<details>
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **b) Cable Ethernet (Par Trenzado)**
+    
+- **Explicación:** Es el estándar omnipresente en redes LAN. Los cables de par trenzado (como Cat5e o Cat6) con conectores RJ-45 son económicos y eficientes para distancias cortas dentro de un edificio.
+    
+
+</details>
+
+**6. Tienes una red en el primer piso y otra diferente en el segundo piso. ¿Qué dispositivo conecta múltiples redes entre sí y gestiona el tráfico de datos para optimizar el rendimiento (decidiendo la mejor ruta)?**
+
+a) Hub
+
+b) Repetidor
+
+c) Switch
+
+d) Router
+
+<details>
+<summary><strong>Ver Respuesta Correcta</strong></summary>
+
+- **d) Router**
+    
+- **Explicación:** Mientras que un Switch conecta dispositivos en _una_ misma red, el **Router** es el puente que conecta redes _diferentes_ (como tu red doméstica con Internet) y decide inteligentemente por dónde enviar los datos.
+    
+
+</details>
+
