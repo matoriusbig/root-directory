@@ -17,7 +17,8 @@ Imagina una ciudad. Tienes casas (donde vive la gente), carreteras (por donde vi
 3. **Medios y Software:** Las carreteras y las reglas de tránsito.
     
 
-![[network-componets.png]]
+<img width="447" height="505" alt="network-componets" src="https://github.com/user-attachments/assets/fa0c573d-bed7-48c7-9976-a19832d1177a" />
+
 
 ---
 
@@ -27,7 +28,8 @@ Un **End Device** (o **Host**) es cualquier dispositivo que sea el origen o el d
 
 Piensa en ellos como las "casas" en nuestra analogía de la ciudad. Aquí es donde el usuario interactúa: tu PC, tu smartphone, una tablet o incluso tu refrigerador inteligente (IoT). Su trabajo es **generar datos** (cuando envías un correo) o **consumir datos** (cuando ves Netflix).
 
-![[host.png]]
+<img width="693" height="182" alt="host" src="https://github.com/user-attachments/assets/b4652fb9-f0c0-469b-b92b-3760d7c7f70d" />
+
 
 > **💡 Nota:** Ya sea por cable (Ethernet) o aire (Wi-Fi), estos son la interfaz principal entre el humano y la red mundial.
 
@@ -47,7 +49,9 @@ Sus funciones vitales incluyen:
     
 - **Seguridad:** Muchos incluyen **Firewalls** para bloquear accesos no autorizados.
     
-![[network-componets-2.png]]
+<img width="696" height="434" alt="network-componets-2" src="https://github.com/user-attachments/assets/9b7eef88-ecd0-4862-8617-883e923f8352" />
+
+
 > **💡Nota:** Operan en diferentes capas del **Modelo OSI**  los Routers operan en la Capa 3 (Red) y los Switches en la Capa 2 (Enlace de Datos).
 
 ---
@@ -63,7 +67,8 @@ Es el hardware (una tarjeta o chip) que conecta tu dispositivo al medio (cable o
 - **Tipos:** Pueden ser para conexiones cableadas (Ethernet) o inalámbricas (Wi-Fi/Radiofrecuencia).
     
     
-![[network-interface-card.png]]
+<img width="1189" height="796" alt="network-interface-card" src="https://github.com/user-attachments/assets/407eb2ed-dfb7-42cf-b78e-7260a340b856" />
+
 
 > **🛡️ Nota de Seguridad:** En hacking, a menudo "falsificamos" (Spoofing) esta dirección MAC para hacernos pasar por otro dispositivo legítimo en la red y saltarnos restricciones de acceso.
 
@@ -82,8 +87,10 @@ El Router es el dispositivo más "inteligente". Su trabajo es conectar **redes d
 - **Cómo funciona:** Lee direcciones IP. Usa protocolos de enrutamiento (como OSPF o BGP) para encontrar la ruta más rápida a través de la red mundial.
     
 - **Seguridad:** Actúan como la primera línea de defensa con Firewalls y Listas de Control de Acceso (ACLs).
-    
-![[router.png]]
+
+<img width="541" height="403" alt="router" src="https://github.com/user-attachments/assets/9fc20cc1-8173-4384-8c31-68b2307ca9b1" />
+
+
 #### B. Switches (Conmutadores) - El Cerebro Local
 
 El Switch conecta dispositivos dentro de la **MISMA** red (LAN - Local Area Network).
@@ -94,7 +101,9 @@ El Switch conecta dispositivos dentro de la **MISMA** red (LAN - Local Area Netw
     
 - **Ejemplo:** Si en una oficina envías un archivo a la impresora, el Switch crea un camino directo entre tu PC y la impresora. Los demás PCs no ven esos datos.
     
-![[switch.png]]
+<img width="552" height="387" alt="switch" src="https://github.com/user-attachments/assets/f462d35c-a6ec-4b24-b117-44d94ce701f3" />
+
+
 #### C. Hubs (Concentradores) - El Megáfono (Obsoleto)
 
 El Hub es tecnología antigua y "tonta".
@@ -105,8 +114,9 @@ El Hub es tecnología antigua y "tonta".
     
 - **Por qué casi no se usa:** Causa muchas colisiones de datos y es inseguro.
     
+<img width="239" height="172" alt="hub" src="https://github.com/user-attachments/assets/141855cd-515e-4633-b025-f443d9b3e159" />
 
-![[hub.png]]
+
 
 > 🛡️ Nota de Seguridad - Hub vs Switch:
 > 
@@ -120,7 +130,9 @@ El Hub es tecnología antigua y "tonta".
 |**Switch**|Capa 2 (Enlace)|Conecta dispositivos en una LAN|Media (Usa MAC)|
 |**Hub**|Capa 1 (Física)|Repetidor básico|Nula (Grita a todos)|
 
-![[hub-vs-switch.png]]
+
+<img width="829" height="486" alt="Captura de pantalla 2025-12-01 113020" src="https://github.com/user-attachments/assets/3bb9268e-5251-40bf-8fd5-599829dbe161" />
+
 
 ---
 
@@ -136,9 +148,13 @@ Son las tuberías físicas.
     
 - **Conectores:** El famoso enchufe de plástico en la punta del cable de red se llama **RJ-45**. La calidad de estos define la velocidad y estabilidad de tu conexión.
   
-![[wireless-diagram.png]]
-![[optical-fiber.png]]
-![[rj-45.png]]
+<img width="1002" height="528" alt="wireless-diagram" src="https://github.com/user-attachments/assets/20fc0b59-b313-46fe-b3ff-01b5a9f77510" />
+
+<img width="394" height="392" alt="rj-45" src="https://github.com/user-attachments/assets/40eb883a-2241-4de4-ad46-9b94b63314ec" />
+
+<img width="1013" height="561" alt="optical-fiber" src="https://github.com/user-attachments/assets/82fc0615-643b-4fa0-b3a6-a2610d1a9cd7" />
+
+
 #### Protocolos de Red (Las Reglas del Juego)
 
 Imagina que dos computadoras intentan hablar, pero una habla español y la otra japonés. No funcionaría. Los **Protocolos** son conjuntos de reglas que estandarizan la comunicación. Definen cómo se formatean, direccionan y reciben los datos.
@@ -177,7 +193,9 @@ A diferencia de un aparato físico, este es un programa instalado en tu PC (como
 > 
 > El comando sería algo conceptualmente como: "Si ves tráfico ICMP entrando, TÍRALO (DROP) a la basura". Esto hace que tu servidor parezca invisible.
 
-![[ip-tablets.png]]
+<img width="984" height="615" alt="ip-tablets" src="https://github.com/user-attachments/assets/da3c7944-3dca-4f94-8189-cbcb91e19173" />
+
+
 #### Servidores (Servers)
 
 Son computadoras "con esteroides" diseñadas para servir a otros (Clientes).
@@ -188,7 +206,8 @@ Son computadoras "con esteroides" diseñadas para servir a otros (Clientes).
     
 - **Gestión:** Centralizan la autenticación (usuarios y contraseñas) y el almacenamiento de datos.
     
-![[servers.png]]
+<img width="598" height="601" alt="servers" src="https://github.com/user-attachments/assets/f44b19a0-1c5d-496c-bc9d-2c9e9e96a91d" />
+
 
 ---
 
