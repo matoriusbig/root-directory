@@ -138,8 +138,69 @@ Las empresas usan esto para unir oficinas. Si tienes una oficina en Madrid (LAN 
 - **WAN (Wide):** La red pública, enorme y global (Internet). Conecta múltiples LANs.
     
 - **Conexión:** El **Módem** es tu puerta de enlace. Traduce las señales de tu LAN para que puedan viajar por la infraestructura de la WAN de tu ISP.
-    
 
 ---
 
-**¿Te gustaría que profundicemos en cómo se ven estas conexiones a nivel de hardware (Cables y Topologías) en la siguiente lección?**
+🧠 Comprobación de Conocimientos: Fundamentos de Redes
+Antes de correr, hay que saber caminar. Vamos a asegurarnos de que tienes clarísimos los conceptos básicos que definen nuestra "carretera digital".
+
+1. Empecemos por la definición más básica. ¿Cuál es el término técnico para una colección de dispositivos interconectados que pueden comunicarse y compartir recursos (como archivos o impresoras) entre sí?
+
+a) Sistema Operativo b) Red de Computadoras (Computer Network) c) Servidor Web d) Base de Datos
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) Red de Computadoras (Computer Network)
+
+Explicación: Así de simple. Cuando conectas dos o más computadoras para que "hablen" entre ellas, has creado una Red. Imagínalo como un grupo de personas en una mesa de reuniones: están interconectadas y comparten información.
+
+</details>
+
+2. En la terminología de redes, cada computadora, impresora o teléfono conectado tiene un nombre. ¿Cuál es el término para estos dispositivos individuales conectados a una red?
+
+a) Links (Enlaces) b) Routers c) Hosts (o Nodos) d) Gateways
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+c) Hosts (o Nodos)
+
+Explicación: Cualquier dispositivo que "vive" en la red y tiene una dirección IP se llama Host. Piensa en ellos como las casas en una ciudad; la red son las calles, y los Hosts son las viviendas donde reside la información.
+
+</details>
+
+3. Si conectamos todas las redes pequeñas del mundo, creamos un monstruo. ¿Cuál es la Wide Area Network (WAN) más grande que existe y que conecta millones de redes locales (LANs) a nivel global?
+
+a) La Intranet b) La Extranet c) Ethernet d) Internet
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+d) Internet
+
+Explicación: Internet no es una "nube" mágica, es literalmente la "Red de Redes". Es la infraestructura física masiva (cables submarinos, satélites, fibra) que conecta tu red local con la red de un servidor en Japón.
+
+</details>
+
+
+4. Estás en tu casa o en una pequeña oficina. ¿Cuál es el acrónimo para la red que conecta dispositivos en una distancia corta, como dentro de un solo edificio?
+
+a) WAN (Wide Area Network) b) LAN (Local Area Network) c) VPN (Virtual Private Network) d) MAN (Metropolitan Area Network)
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+b) LAN (Local Area Network)
+
+Explicación: La palabra clave es Local. Una LAN es tu territorio privado, rápido y de corto alcance. Es como la red de tuberías dentro de tu propia casa, a diferencia de la red de tuberías de toda la ciudad.
+
+</details>
+
+5. Para que los datos viajen de un punto A a un punto B, necesitan un camino. ¿Qué término describe las vías de comunicación (ya sean cables físicos u ondas inalámbricas) que conectan los nodos?
+
+a) Protocolos b) Paquetes c) Links (Enlaces) / Medios d) Puertos
+
+<details> <summary><strong>Ver Respuesta Correcta</strong></summary>
+
+c) Links (Enlaces) / Medios
+
+Explicación: Un Link (Enlace) es el medio físico o lógico que transporta los bits. Puede ser un cable de cobre, una fibra de vidrio o el aire (Wi-Fi). Sin el enlace, la red es solo un grupo de islas aisladas.
+
+</details>
