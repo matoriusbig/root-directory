@@ -71,8 +71,9 @@ Una **LAN** conecta dispositivos en una distancia corta. Es tu territorio local:
     
 - **Medio:** Cables Ethernet o Wi-Fi.
     
+<img width="790" height="817" alt="lan_1-1 (1)" src="https://github.com/user-attachments/assets/e4148964-6b97-4efc-8825-866ebb14323d" />
 
-![[lan_1-1 (1).png]]
+
 #### B. Wide Area Network (WAN) 🌍
 
 Una **WAN** es la liga mayor. Abarca grandes áreas geográficas y conecta múltiples LANs entre sí.
@@ -86,7 +87,8 @@ Una **WAN** es la liga mayor. Abarca grandes áreas geográficas y conecta múlt
 - **Medio:** Fibra óptica, enlaces satelitales, líneas telefónicas arrendadas.
     
 
-![[wan-2.png]]
+<img width="1595" height="867" alt="wan-2" src="https://github.com/user-attachments/assets/0e1d0c7d-135a-4e74-846b-b7e49dfa03dd" />
+
 
 > **💡 Nota:** **Internet** es el ejemplo más grande y famoso de una **WAN**. Es una "red de redes" que conecta millones de LANs globalmente.
 
