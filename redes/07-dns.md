@@ -1,4 +1,4 @@
-# 8 - Sistema de Nombres de Dominio (DNS) 🌐
+# 7 - Sistema de Nombres de Dominio (DNS) 🌐
 
 > **🎯 Objetivo:** Entender el sistema vital que hace que Internet sea navegable para los humanos. Aprenderás cómo una dirección legible como "https://www.google.com/url?sa=E\&source=gmail\&q=google.com" se convierte mágicamente en una dirección numérica que las computadoras pueden entender.
 
