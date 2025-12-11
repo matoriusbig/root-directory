@@ -43,6 +43,9 @@ El DNS no es una lista plana; está organizado como un árbol genealógico o una
       * Ejemplo: `www` en `www.example.com`.
       * Ejemplo: `accounts` en `accounts.google.com`.
 
+<img width="984" height="516" alt="image" src="https://github.com/user-attachments/assets/9beb733c-2a78-41eb-9f61-0da6c4df3ef2" />
+
+
 -----
 
 ### 3\. El Proceso de Resolución: Una Carrera de Relevos 🏃‍♂️💨
@@ -61,7 +64,7 @@ Imagina que le pides a un asistente (tu computadora) que busque una dirección.
 6.  **La Fuente de la Verdad (Authoritative Name Server):** Finalmente, el servidor recursivo llega al servidor DNS de la empresa `example.com`. Este servidor dice: *"¡Sí\! La dirección de `www` es `93.184.216.34`"*.
 7.  **Entrega Final:** El servidor recursivo vuelve corriendo a tu computadora con la IP. Tu navegador ahora puede conectar directamente con el servidor web.
 
-<img width="841" height="346" alt="image" src="https://github.com/user-attachments/assets/3ec2a5e3-127c-47c4-aa34-d4154690fcb2" />
+<img width="989" height="453" alt="image" src="https://github.com/user-attachments/assets/ff344ac3-ea38-4495-aefc-e9cad5e59d25" />
 
 
 > **🛡️ Nota de Seguridad:** Los atacantes a veces intentan envenenar este proceso (DNS Spoofing) para que cuando pidas `banco.com`, el servidor te dé la IP de un sitio falso. Por eso la integridad del DNS es vital.
