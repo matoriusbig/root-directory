@@ -31,8 +31,8 @@ El cliente y el servidor intercambian 4 mensajes clave:
      > 
  * A - Acknowledge (Reconocimiento - ACK):
    * El servidor cierra el trato: "Entendido. La 192.168.1.10 es tuya por ahora. Aquí tienes tu configuración completa".
-> 🖼️ Referencia Visual: Diagrama del Proceso DORA
->  * Descripción: Un esquema de 4 pasos (flechas bajando) entre una Laptop (Cliente) y un Servidor. 1. Discover (Broadcast), 2. Offer (Unicast/Broadcast), 3. Request (Broadcast), 4. Ack (Unicast). Muestra cómo se cierra el trato.
+<img width="658" height="309" alt="image" src="https://github.com/user-attachments/assets/a5df3444-29a0-4f2f-9706-68d239b42a82" />
+
 > 
 > 🛡️ Nota de Seguridad: Este proceso es confiado por naturaleza. Aquí es donde atacantes pueden realizar un "Rogue DHCP Server Attack". Un hacker puede poner su propio servidor DHCP falso y responder más rápido que el real, asignándote una IP y diciéndote que él es tu puerta de enlace, interceptando así todo tu tráfico (Man-in-the-Middle).
 > 
@@ -59,6 +59,7 @@ Unamos todo lo aprendido:
 ## Comprobación de conocimientos 🧠
 A continuación, una serie de preguntas para validar lo que has aprendido. Intenta responder antes de desplegar la solución.
 1. ¿Cuál es el protocolo encargado de automatizar la configuración de direcciones IP en una red?
+
 a) DNS
 b) HTTP
 c) DHCP
@@ -68,6 +69,7 @@ d) ARP
  * c) DHCP (Dynamic Host Configuration Protocol es el estándar para esta automatización).
 </details>
 2. ¿Qué acrónimo describe la secuencia de mensajes intercambiados durante el proceso DHCP?
+
 a) RODA
 b) DORA
 c) ACKE
@@ -77,6 +79,7 @@ d) HAND
  * b) DORA (Discover, Offer, Request, Acknowledge).
 </details>
 3. En el proceso DORA, ¿qué mensaje envía el cliente para aceptar oficialmente una dirección IP ofrecida?
+
 a) DHCP Discover
 b) DHCP Offer
 c) DHCP Request
@@ -86,6 +89,7 @@ d) DHCP Acknowledge
  * c) DHCP Request (El cliente solicita/acepta formalmente la IP que se le ofreció).
 </details>
 4. ¿Qué sucede cuando el tiempo de arrendamiento (Lease Time) de una IP está por expirar?
+
 a) El dispositivo se desconecta inmediatamente.
 b) El servidor DHCP cambia la IP del cliente sin avisar.
 c) El cliente debe intentar renovar el arrendamiento con el servidor.
@@ -95,6 +99,7 @@ d) La IP se vuelve permanente automáticamente.
  * c) El cliente debe intentar renovar el arrendamiento con el servidor (Generalmente ocurre a la mitad del tiempo del lease).
 </details>
 5. ¿Qué mensaje envía un cliente nuevo a la red para encontrar un servidor DHCP disponible?
+
 a) DHCP Acknowledge
 b) DHCP Discover
 c) Ping
