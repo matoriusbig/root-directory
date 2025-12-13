@@ -63,14 +63,26 @@ Este es el estándar de la industria (Websites, Email, Apps bancarias). Es una j
 
 Para organizar mejor el caos, dividimos al servidor en capas lógicas:
 
-1.  **Single-Tier (Todo en uno):** Base de datos, lógica e interfaz en UNA máquina. *Peligroso y poco escalable.*
-2.  **Two-Tier (Escritorio clásico):** Cliente (interfaz) habla directo con la Base de Datos.
-      * > **💡 Nota:** Navegar por la web **NO** es Two-Tier normalmente, porque el navegador habla con un Web Server, no con la Base de Datos directamente.
-3.  **Three-Tier (El estándar Web):**
-      * **Capa 1 (Cliente):** Lo que ves (Presentación).
-      * **Capa 2 (App Server):** El cerebro. Procesa la lógica ("¿Tiene saldo esta cuenta?").
-      * **Capa 3 (Database):** La caja fuerte. Guarda los datos crudos.
-4.  **N-Tier:** Cuando el sistema es tan grande que dividimos la lógica en múltiples servidores especializados.
+### **Single-Tier (Todo en uno):** Base de datos, lógica e interfaz en UNA máquina. *Peligroso y poco escalable.*
+
+<img width="705" height="521" alt="image" src="https://github.com/user-attachments/assets/f925685f-64b3-458e-949a-f0223b3e2153" />
+
+### **Two-Tier (Escritorio clásico):** Cliente (interfaz) habla directo con la Base de Datos.
+
+<img width="750" height="522" alt="image" src="https://github.com/user-attachments/assets/9322f986-98f4-4269-b878-eb9529e6f2a4" />
+
+> **💡 Nota:** Navegar por la web **NO** es Two-Tier normalmente, porque el navegador habla con un Web Server, no con la Base de Datos directamente.
+
+### **Three-Tier (El estándar Web):**
+* **Capa 1 (Cliente):** Lo que ves (Presentación).
+* **Capa 2 (App Server):** El cerebro. Procesa la lógica ("¿Tiene saldo esta cuenta?").
+* **Capa 3 (Database):** La caja fuerte. Guarda los datos crudos.
+
+<img width="731" height="415" alt="image" src="https://github.com/user-attachments/assets/79bcc1b6-c5bb-43c2-b023-0334a0469523" />
+
+### **N-Tier:** Cuando el sistema es tan grande que dividimos la lógica en múltiples servidores especializados.
+
+<img width="759" height="529" alt="image" src="https://github.com/user-attachments/assets/dce90213-de8e-4447-b826-9a07f7707659" />
 
 #### ⚖️ Balance Client-Server
 
@@ -93,6 +105,8 @@ Para organizar mejor el caos, dividimos al servidor en capas lógicas:
 >
 > **Resultado:** Menos carga para el servidor, menos lag para los usuarios.
 
+<img width="999" height="541" alt="image" src="https://github.com/user-attachments/assets/f5a0e58b-2e58-4a10-bf5e-240b4091fe04" />
+
 -----
 
 ### 5\. Cloud Architecture: La Computadora de Otro ☁️
@@ -106,10 +120,13 @@ La "Nube" es solo un nombre elegante para "usar los servidores de Amazon/Google/
 3.  **Elasticidad:** ¿Necesitas 100 servidores por una hora? Click. ¿Ya no los necesitas? Click.
 4.  **Pago por uso:** Como la luz o el agua. Pagas lo que consumes.
 
+<img width="985" height="679" alt="image" src="https://github.com/user-attachments/assets/8c74b523-86bb-4137-a8c2-164f7ac21eb3" />
 <!-- end list -->
 
   * **Ventaja:** No compras hardware, escalabilidad infinita.
   * **Riesgo:** "Vendor Lock-in" (casarse con un proveedor y que sea difícil divorciarse) y privacidad de datos.
+  
+> **💡 Nota:** Servicios como Google Drive o Dropbox son algunos ejemplos de la Arquitectura en la Nube que funciona bajo el modelo **Software como Servicio (SaaS)**, donde accedemos a aplicaciones a través de internet sin gestionar el hardware subyacente.
 
 -----
 
@@ -121,6 +138,8 @@ Tradicionalmente, los routers eran cajas tontas que tenían que configurarse una
   * **Data Plane (Músculo):** Los dispositivos que mueven los paquetes. Solo obedecen órdenes.
 
 > **La Magia:** Permite a los administradores reprogramar toda la red desde una consola central en segundos, en lugar de tocar 500 routers manualmente. Es vital para grandes empresas y nubes.
+
+<img width="988" height="861" alt="image" src="https://github.com/user-attachments/assets/908a0c26-196b-46d2-bd6a-a5e15fa1c3e4" />
 
 -----
 
