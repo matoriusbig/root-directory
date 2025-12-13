@@ -41,9 +41,7 @@ En casa, solemos llamar "Router" a la caja que nos da internet, pero técnicamen
 1.  **Función de Router:** Dirige el tráfico (es el policía de tránsito que dice "tú vas a Google, tú vas a la impresora").
 2.  **Función de Wireless Access Point (WAP):** Es la antena que convierte los datos cableados en ondas de radio para crear la zona Wi-Fi.
 
-> **🖼️ Referencia Visual:** Componentes de un Router
->
->   * **Descripción:** Un diagrama que señale la parte trasera de un router: el puerto **WAN** (donde entra internet del módem), los puertos **LAN** (para cables locales) y las **Antenas**.
+<img width="565" height="462" alt="image" src="https://github.com/user-attachments/assets/c6579225-8e65-48fb-91ed-9d05e14edc4c" />
 
 **Sus componentes vitales:**
 
@@ -62,6 +60,8 @@ Un **Mobile Hotspot** convierte tu teléfono en un mini-router de emergencia.
   * **El Sacrificio:** La batería de tu celular morirá rápido y el rango es muy corto (apenas unos metros).
 
 > **Imagina que...** Estás en un aeropuerto y el Wi-Fi público no funciona (o no confías en él). Activas el Hotspot, y tu celular se convierte en el puente seguro entre tu laptop e Internet.
+
+<img width="739" height="324" alt="image" src="https://github.com/user-attachments/assets/b921e54d-d0d8-48e3-b3fe-a195225ff32f" />
 
 -----
 
@@ -97,6 +97,9 @@ Aquí está la regla de oro de la física inalámbrica:
 >   * **Frecuencia BAJA:** Viaja lejos y atraviesa paredes, pero carga menos datos (es lenta).
 >   * **Frecuencia ALTA:** Es muy rápida, pero no atraviesa bien las paredes y llega cerca.
 
+<img width="892" height="490" alt="image" src="https://github.com/user-attachments/assets/7f7120de-87b8-4712-a706-031094e4d4dc" />
+
+
 #### Comparativa de Bandas
 
 | Banda | Uso | Características | Analogía |
@@ -104,6 +107,8 @@ Aquí está la regla de oro de la física inalámbrica:
 | **2.4 GHz** | Wi-Fi Viejo (802.11b/g/n) | **Rompe-muros.** Mejor alcance, pero mucha interferencia (microondas, Bluetooth). | Un sonido grave (bajo) que escuchas a través de las paredes del vecino. |
 | **5 GHz** | Wi-Fi Moderno (802.11ac/ax) | **Velocidad Pura.** Rápido, pero si te alejas dos habitaciones, la señal cae. | Un susurro rápido; si cierras la puerta, no lo oyes. |
 | **Celular** | 4G/5G | Varía desde 700 MHz (largo alcance) hasta 28 GHz (5G ultra rápido en estadios). | Una mezcla de ambas estrategias. |
+
+<img width="800" height="368" alt="image" src="https://github.com/user-attachments/assets/c9ef6f49-8ebd-4a7c-9963-2b27a06a8754" />
 
 > **Nota Técnica:** Las agencias gubernamentales (como la FCC en EE.UU.) son los "policías del aire" que deciden qué frecuencias son legales para evitar que tu Wi-Fi interfiera con los radares de los aviones.
 
