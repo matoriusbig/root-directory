@@ -109,27 +109,33 @@ No basta con comprar los aparatos, hay que saber usarlos. Aquí están las regla
 
 -----
 
-## 5\. Explicación Práctica: Configuración de Reglas (Sin Laboratorio) 🛠️
+## 5\. Explicación Práctica: Configuración de Reglas 🛠️
 
-En los cursos técnicos, a menudo usarás herramientas como **pfSense** (Firewall/Router Open Source) o **Suricata** (IDS/IPS). Aunque no haremos el laboratorio paso a paso aquí, es vital entender la lógica de configuración:
+En los cursos técnicos, a menudo usarás herramientas como **pfSense** (Firewall/Router Open Source) o **Suricata** (IDS/IPS):
 
 **El Escenario:** Imagina que eres el administrador y quieres bloquear todo el tráfico, excepto el acceso a tu servidor web.
 
-1.  **En el Firewall (pfSense):**
+### **En el Firewall (pfSense):**
 
-      * Irías a la sección de "Rules" (Reglas).
-      * Crearías una regla de "Block All" (Bloquear todo) al final de la lista.
-      * Crearías una regla "Pass" (Permitir) arriba del todo especificando:
-          * *Source:* Any (Cualquiera).
-          * *Destination:* IP de tu servidor Web.
-          * *Port:* 80/443 (HTTP/HTTPS).
-      * *Resultado:* El firewall lee de arriba a abajo. Si es tráfico web, pasa. Si es cualquier otra cosa, llega al final y se bloquea.
+   * Irías a la sección de "Rules" (Reglas).
+   * Crearías una regla de "Block All" (Bloquear todo) al final de la lista.
+   * Crearías una regla "Pass" (Permitir) arriba del todo especificando:
+       * *Source:* Any (Cualquiera).
+       * *Destination:* IP de tu servidor Web.
+       * *Port:* 80/443 (HTTP/HTTPS).
+   * *Resultado:* El firewall lee de arriba a abajo. Si es tráfico web, pasa. Si es cualquier otra cosa, llega al final y se bloquea.
 
-2.  **En el IDS/IPS (Suricata):**
+![pfsense](https://github.com/user-attachments/assets/5b552767-08b0-40e2-a910-31dd9eae96dd)
 
-      * Habilitas el "Modo IPS" (Inline).
-      * Cargas un conjunto de reglas (como las de Emerging Threats).
-      * Si Suricata ve un paquete que coincide con la firma de un ataque conocido (ej: "Intento de SQL Injection"), automáticamente cortará la conexión y registrará el evento.
+### **En el IDS/IPS (Suricata):**
+
+![suricata-2](https://github.com/user-attachments/assets/6aa0dd2e-e368-48a5-b81f-10062909d9bb)
+
+   * Habilitas el "Modo IPS" (Inline).
+   * Cargas un conjunto de reglas (como las de Emerging Threats).
+   * Si Suricata ve un paquete que coincide con la firma de un ataque conocido (ej: "Intento de SQL Injection"), automáticamente cortará la conexión y registrará el evento.
+   
+![suricata-3](https://github.com/user-attachments/assets/979a55a4-e94d-4d5e-a97b-f7a5db2324d8)
 
 -----
 
